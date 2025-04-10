@@ -1,0 +1,58 @@
+:root {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.9)), url("https://i.gifer.com/PYZK.gif");
+    cursor: help;
+}
+
+/* sections */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.body-1 {
+    margin-left: 40px;
+    padding-left: 10px;
+    width: 800px;
+    border: 1px solid white;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    column-gap: 30px;
+    bottom: 0px;
+    padding: 20px;
+    font-size: 150%;
+    font-family: DM Sans;
+    font-weight: 600;
+    background-color: black;
+}
+
+/* text styling */
+
+:root {
+    font-family: "Syne Mono";
+    color: aliceblue;
+}
+
+.emery {
+    font-size: 1000%;
+    font-family: DM Sans;
+    color: aliceblue;
+    transform: rotate(-20deg);
+    text-shadow: 500px 0px 0px darkslategrey;
+}
+
+.subheader {
+    font-weight: 100;
+    transform: rotate(-20deg);
+    margin-top: 115px;
+    margin-left: 20px;
+    text-wrap: nowrap;
+}
+
+a {
+    color: white;
+}
